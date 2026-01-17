@@ -11,7 +11,7 @@ features = joblib.load("models/features.pkl")
 feature_means = joblib.load("models/feature_means.pkl")
 
 # Load dataset for preview
-dataset = pd.read_csv("WineQT.csv")
+dataset = pd.read_csv("dataset/WineQT.csv")
 
 # ---------------------------------
 # Page Config
