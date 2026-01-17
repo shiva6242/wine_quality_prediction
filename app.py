@@ -5,10 +5,10 @@ import joblib
 # ---------------------------------
 # Load saved objects
 # ---------------------------------
-model = joblib.load("wine_model.pkl")
-scaler = joblib.load("scaler.pkl")
-features = joblib.load("features.pkl")
-feature_means = joblib.load("feature_means.pkl")
+model = joblib.load("models/wine_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
+features = joblib.load("models/features.pkl")
+feature_means = joblib.load("models/feature_means.pkl")
 
 # Load dataset for preview
 dataset = pd.read_csv("WineQT.csv")
